@@ -73,7 +73,7 @@ nav li{
 
 .theIntro{
     background-image: linear-gradient(to top, #333333 0%, #e6e6e6 100%);
-    height: 100vh;
+    padding-bottom: 10%;
 }
 
 .tagline-span {
@@ -127,7 +127,7 @@ table right {
 .about-us {
     background-color: #404040;
     width: 100%;
-    padding: 5% 0%;
+    padding: 7% 0%;
     height: 330px;
     
 }
@@ -256,38 +256,6 @@ table right {
     transition: 0.5s;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
