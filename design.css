@@ -19,9 +19,9 @@ img {
     margin: 3% auto;
     background-color: #FFFFFF;
     padding: 5%;
-    height: 50vh;
+    height: 45vh;
     justify-content: center;
-    min-height: 70vmin;             /* old => min-height: 40vh; */
+    min-height: 70vmin;
 }
 
 header {
