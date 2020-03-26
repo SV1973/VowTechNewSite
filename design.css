@@ -10,7 +10,7 @@ body {
 
 img {
     display: block;
-    width: 50%;
+    width: 60vmax;
     margin: auto;
     justify-content: center;
     
@@ -20,9 +20,9 @@ img {
     margin: 3% auto;
     background-color: #FFFFFF;
     padding: 4%;
-    height: 350px;
+    height: 50vh;                   /* old => height: 70vmin; */
     justify-content: center;
-    align-items: centre;
+    min-height: 35vmax;             /* old => min-height: 40vh; */
 }
 
 header {
@@ -64,16 +64,17 @@ nav li{
 
 /* -------------------------------------------------------------------------- */
 
-#tagline{
+#tagline {
     text-align: center;
     font-size: 2.5rem;
     letter-spacing: 0.3rem;
     color: aliceblue;
 }
 
-.theIntro{
+.theIntro {
     background-image: linear-gradient(to top, #333333 0%, #e6e6e6 100%);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .tagline-span {
@@ -81,7 +82,7 @@ nav li{
 }
 
 #subtext {
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     letter-spacing: 0.2rem;
 }
@@ -217,7 +218,7 @@ table right {
 .contact-me h2{
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 1%;
+    margin: 2% 0%;
 }
 
 .contact-me p{
@@ -228,7 +229,7 @@ table right {
 
 #the-button{
     height: 4rem;
-    width: 20%;
+    width: 30%;
     font-size: 1.4rem;
     background-color: #404040;
     border: none;
@@ -242,7 +243,7 @@ table right {
 
 #the-button:hover {
     height: 4rem;
-    width: 20%;
+    max-width: 30%;
     font-size: 1.4rem;
     background-color: #FFFFFF;
     border: none;
@@ -253,8 +254,8 @@ table right {
     color: #404040;
     border-radius: 10px;
     transition: 0.5s;
-
 }
+
 
 
 
