@@ -10,19 +10,18 @@ body {
 
 img {
     display: block;
-    width: 60vmax;
+    width: 90vmin;
     margin: auto;
     justify-content: center;
-    
 }
 
 .img-container {
     margin: 3% auto;
     background-color: #FFFFFF;
-    padding: 4%;
-    height: 50vh;                   /* old => height: 70vmin; */
+    padding: 5%;
+    height: 50vh;
     justify-content: center;
-    min-height: 35vmax;             /* old => min-height: 40vh; */
+    min-height: 70vmin;             /* old => min-height: 40vh; */
 }
 
 header {
@@ -82,7 +81,7 @@ nav li{
 }
 
 #subtext {
-    margin-top: 5%;
+    margin: 5% 0%;
     text-align: center;
     letter-spacing: 0.2rem;
 }
@@ -255,6 +254,9 @@ table right {
     border-radius: 10px;
     transition: 0.5s;
 }
+
+
+
 
 
 
